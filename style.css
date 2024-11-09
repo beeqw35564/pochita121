@@ -1,21 +1,25 @@
-
-header {
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 30px 100px;
-    margin: 0 auto;
-    background-color: #333;
-    
-}
+<style>
 ul {
-    color: blueviolet;
-    background-color: antiquewhite;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-nav {
-    position: relative;
-    top: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.right {
+	float: right;
+    }
+    
+li {
+  float: left;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  
+}
+ 
